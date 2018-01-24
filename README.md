@@ -1,7 +1,7 @@
-# kazamidori
+# KAZAMIDORI
 This project provides BTC log files formatted csv.  
 
-## format description  
+## Format description  
 ### bitflyer.jp daily ticker log format  
 
 |fields|description|
@@ -24,4 +24,5 @@ This project provides BTC log files formatted csv.
 |volume_by_product||
 |last_price|Last execution price|
 
+### bitflyer.jp daily execution log format
 
