@@ -28,7 +28,7 @@ file name : bitflyer.ticker.[YMD].[PRODUCT CODE].csv.gz
 "health" field takes following values  
 NORMAL,BUSY,VERY BUSY,SUPER BUSY,NO ORDER,STOP
 
-"status" field taks following values
+"status" field taks following values 
 RUNNING,CLOSED,STARTING,PREOPEN,CIRCUIT BREAK,AWAITING SQ,MATURED	
 
 ### bitflyer.jp daily execution log format
