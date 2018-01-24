@@ -3,6 +3,7 @@ This project provides BTC log files formatted csv.
 
 ## Format description  
 ### bitflyer.jp daily ticker log format  
+file name : bitflyer.ticker.[YMD].[PRODUCT CODE].csv.gz
 
 |fields|description|
 |:---|:---|
@@ -23,6 +24,12 @@ This project provides BTC log files formatted csv.
 |volume||
 |volume_by_product||
 |last_price|Last execution price|
+
+"health" field takes following values  
+NORMAL,BUSY,VERY BUSY,SUPER BUSY,NO ORDER,STOP
+
+"status" field taks following values
+RUNNING,CLOSED,STARTING,PREOPEN,CIRCUIT BREAK,AWAITING SQ,MATURED	
 
 ### bitflyer.jp daily execution log format
 
