@@ -11,7 +11,7 @@ file name : bitflyer.ticker.[YMD].[PRODUCT CODE].csv.gz
 |product_code|Type of currency pair like "BTC_JPY"|
 |health|The health status of bitflyer.jp servers.|
 |status|Status of acceptance orders|
-|loaded|Our server timestamp rounded minutes formated yyyy-MM-dd'T'HH:mm:ss.SSS |
+|loaded|Our server timestamp rounded minutes formated yyyy-MM-dd'T'HH:mm:ss.SSSZZ |
 |timestamp|Tick timestamp of bitflyer.jp occationally blank value|
 |tick_id|Tick id|
 |best_bid|Best bid|
