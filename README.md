@@ -5,7 +5,7 @@ This project provides BTC log files formatted csv.
 ### bitflyer.jp daily ticker log format  
 file name : bitflyer.ticker.[YMD].[PRODUCT CODE].csv.gz
 
-|fields|description|
+|field|description|
 |:---|:---|
 |domain|Fixed value "bitflyer.jp"|
 |product_code|Type of currency pair like "BTC_JPY"|
@@ -32,4 +32,18 @@ NORMAL,BUSY,VERY BUSY,SUPER BUSY,NO ORDER,STOP
 RUNNING,CLOSED,STARTING,PREOPEN,CIRCUIT BREAK,AWAITING SQ,MATURED	
 
 ### bitflyer.jp daily execution log format
+file name : bitflyer.execution.[YMD].[PRODUCT CODE].csv.gz 
+
+|field|description|
+|:---|:---|
+|domain|fixed value "bitflyer.jp"|
+|product_code|type of currency pair like "BTC_JPY"|
+|loaded|our server timestamp|
+|id|trade id|
+|exec_date|execution timestamp occationally blank value coused by mal formatted data of api|
+|side|"SELL" or "BUY"|
+|price|execution price|
+|size|size|
+|buy_child_order_acceptance_id||
+|sell_child_order_acceptance_id||
 
