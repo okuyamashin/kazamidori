@@ -1,7 +1,7 @@
 # KAZAMIDORI
 This project provides BTC log files formatted csv.  
-Our server is gathering public data from exchange sites every minutes. 
-And upload csv files every day.
+Our server is gathering public data from exchange sites every minutes, 
+and will upload csv files every day.
 
 ## Format description  
 ### bitflyer.jp daily ticker log format  
