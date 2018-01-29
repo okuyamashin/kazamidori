@@ -1,7 +1,11 @@
 # KAZAMIDORI
 This project provides BTC log files formatted csv.  
 Our server is gathering public data from exchange sites every minutes, 
-and will upload csv files every day.
+and will upload csv files every day.  
+
+#### 2018.01.28
+We are currenly preparing a web site for information of bit coins and forcast using artifical intelligence.  
+[Cyber Kazamidori](https://cyber-kazamidori.jp/)
 
 ## Format description  
 ### bitflyer.jp daily ticker log format  
