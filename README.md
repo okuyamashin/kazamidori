@@ -7,6 +7,10 @@ and will upload csv files every day.
 We are currenly preparing a web site for information of bit coins and forcast using artifical intelligence.  
 [Cyber Kazamidori](https://cyber-kazamidori.jp/)
 
+#### 2018.01.31
+Format change  
+Volume Minute field is added to Ticker csv file. It is summery of size of executions after privious ticker entry.  
+
 ## Format description  
 ### bitflyer.jp daily ticker log format  
 file name : bitflyer.ticker.[YMD].[PRODUCT CODE].csv.gz
